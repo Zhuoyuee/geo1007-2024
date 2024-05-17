@@ -1,6 +1,3 @@
-drop table if exists pois cascade;
-drop function if exists update__pois__updated_on;
-
 create table pois
 (
     gid serial4 not null,
